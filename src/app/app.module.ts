@@ -7,6 +7,7 @@ import { HelloWorldComponent } from './hello-world/hello-world.component';
 import { HelloWorldInterpolationComponent } from './hello-world-interpolation/hello-world-interpolation.component';
 import { HelloWorldBindingsComponent } from './hello-world-bindings/hello-world-bindings.component';
 import { HelloWorldNgifComponent } from './hello-world-ngif/hello-world-ngif.component';
+import { HelloWorldDependencyInjectionComponent } from './hello-world-di/hello-world-di.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HelloWorldNgifComponent } from './hello-world-ngif/hello-world-ngif.com
     HelloWorldComponent,
     HelloWorldInterpolationComponent,
     HelloWorldBindingsComponent,
-    HelloWorldNgifComponent
+    HelloWorldNgifComponent,
+    HelloWorldDependencyInjectionComponent
   ],
   imports: [
     BrowserModule,
